@@ -2,7 +2,7 @@ const DISCUSSIONS_URL = "https://github.com/InchaComisho/Artificial-Wisdom-Guard
 
 const content = {
   ja: {
-    pageTitle: "人工叡智（Artificial Wisdom / AW）にアップデート（ガードレールプロンプト）",
+    pageTitle: "人工叡智（Artificial Wisdom / AW）に</br>アップデート（ガードレールプロンプト）",
     lead: "AIに作業を依頼する前に、速度・規模・自動化・利益・能力・短期的成功だけへ偏らないよう、六つの理で確認するためのプロンプトです。",
     languageLabel: "言語",
     previewTitle: "コピーされる内容のプレビュー",
