@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Artificial Wisdom Guardrail Prompt",
+  "version": "0.2.3",
+  "description": "Prompt-only Artificial Wisdom Guardrail helper. No page reading, no AI API.",
+  "permissions": [
+    "sidePanel"
+  ],
+  "host_permissions": [],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Open Artificial Wisdom Guardrail Prompt"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}
