@@ -2,6 +2,8 @@
 
 インストール不要で使える、**人工叡智ガードレールプロンプト** のコピー用ページです。
 
+公開プロンプトページ: <https://inchacomisho.github.io/Artificial-Wisdom-Guardrail-Prompt/>
+
 このリポジトリは、AIツール、コードエージェント、自動化、意思決定支援、設計提案を使う前に、人工叡智ガードレールを適用するための軽量な入口です。
 
 ## 10秒で使う
@@ -13,11 +15,18 @@
 
 ## メインリンク
 
-- コピー用ページ: [`index.html`](index.html)
+- 公開プロンプトページ: <https://inchacomisho.github.io/Artificial-Wisdom-Guardrail-Prompt/>
+- ローカルコピー用ページ: [`index.html`](index.html)
 - プロトコル本体: <https://github.com/InchaComisho/Artificial-Wisdom-Guardrail-Protocol>
 - テスト結果・議論: <https://github.com/InchaComisho/Artificial-Wisdom-Guardrail-Protocol/discussions>
 - ブラウザ拡張ソース: [`extension/`](extension/)
 - 拡張機能インストール方法: [`docs/INSTALL_EXTENSION_ja.md`](docs/INSTALL_EXTENSION_ja.md)
+
+## 関連リポジトリ
+
+- **人工叡智ガードレールプロンプト**: <https://github.com/InchaComisho/Artificial-Wisdom-Guardrail-Prompt> - プロンプトを簡単にコピーするためのページと、任意のブラウザ拡張ソースです。
+- **人工叡智ガードレールプロトコル**: <https://github.com/InchaComisho/Artificial-Wisdom-Guardrail-Protocol> - ガードレールの中核フレームワーク、公開議論、テスト報告の場所です。
+- **テスト報告用 GitHub Discussions**: <https://github.com/InchaComisho/Artificial-Wisdom-Guardrail-Protocol/discussions> - テスト結果、質問、改善案を共有する場所です。
 
 ## これは何か
 

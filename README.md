@@ -4,6 +4,8 @@
 
 A simple, install-free copy page for the **Artificial Wisdom Guardrail Prompt**.
 
+Public prompt page: <https://inchacomisho.github.io/Artificial-Wisdom-Guardrail-Prompt/>
+
 This repository is the lightweight user-facing entry point for applying the Artificial Wisdom Guardrail before using AI tools, code agents, automation, decision-support systems, or design proposals.
 
 ## Use in 10 Seconds
@@ -15,11 +17,18 @@ This repository is the lightweight user-facing entry point for applying the Arti
 
 ## Main Links
 
-- Prompt page: [`index.html`](index.html)
+- Public prompt page: <https://inchacomisho.github.io/Artificial-Wisdom-Guardrail-Prompt/>
+- Local prompt page: [`index.html`](index.html)
 - Protocol repository: <https://github.com/InchaComisho/Artificial-Wisdom-Guardrail-Protocol>
 - Discussions / test reports: <https://github.com/InchaComisho/Artificial-Wisdom-Guardrail-Protocol/discussions>
 - Browser extension source: [`extension/`](extension/)
 - Extension install guide: [`docs/INSTALL_EXTENSION.md`](docs/INSTALL_EXTENSION.md)
+
+## Related Repositories
+
+- **Artificial Wisdom Guardrail Prompt**: <https://github.com/InchaComisho/Artificial-Wisdom-Guardrail-Prompt> - Easy copy page for the prompt, plus an optional browser extension source.
+- **Artificial Wisdom Guardrail Protocol**: <https://github.com/InchaComisho/Artificial-Wisdom-Guardrail-Protocol> - Core framework for the guardrail, public discussion, and test reports.
+- **GitHub Discussions for test reports**: <https://github.com/InchaComisho/Artificial-Wisdom-Guardrail-Protocol/discussions> - Place to share test reports, questions, and improvement ideas.
 
 ## What This Is
 
