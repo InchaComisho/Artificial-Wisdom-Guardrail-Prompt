@@ -18,14 +18,14 @@ This repository is the lightweight user-facing entry point for applying the Arti
 - Prompt page: [`index.html`](index.html)
 - Protocol repository: <https://github.com/InchaComisho/Artificial-Wisdom-Guardrail-Protocol>
 - Discussions / test reports: <https://github.com/InchaComisho/Artificial-Wisdom-Guardrail-Protocol/discussions>
-- Browser extension ZIP: [`extension/artificial-wisdom-guardrail-prompt-v0.2.3.zip`](extension/artificial-wisdom-guardrail-prompt-v0.2.3.zip)
+- Browser extension source: [`extension/`](extension/)
 - Extension install guide: [`docs/INSTALL_EXTENSION.md`](docs/INSTALL_EXTENSION.md)
 
 ## What This Is
 
 This is not an AI system.
 
-It is a prompt distribution page and optional browser extension package.
+It is a prompt distribution page and optional browser extension source package.
 
 It does not:
 
@@ -64,6 +64,8 @@ Use this prompt before asking an AI to:
 The browser extension is optional. Most users can simply use the copy page.
 
 The extension is mainly for people who want to repeatedly test the guardrail prompt across multiple AI systems.
+
+To use it, download the repository via **Code → Download ZIP**, unzip it, and load the `extension` folder in Chrome / Edge developer mode.
 
 ## License
 
