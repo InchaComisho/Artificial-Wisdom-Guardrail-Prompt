@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>人工叡智ガードレールプロンプト / Artificial Wisdom Guardrail Prompt</title>
+  <meta name="description" content="Copy the Artificial Wisdom Guardrail Prompt before using AI tools, code agents, automation, or design proposals.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">Artificial Wisdom Guardrail</p>
+      <h1 id="pageTitle">人工叡智ガードレールプロンプト</h1>
+      <p id="lead" class="lead">AIに作業を依頼する前に、速度・規模・自動化・利益・能力・短期的成功だけへ偏らないよう、六つの理で確認するためのプロンプトです。</p>
+      <div class="language-row">
+        <label for="languageSelect" id="languageLabel">言語</label>
+        <select id="languageSelect">
+          <option value="auto">Auto / 自動</option>
+          <option value="ja">日本語</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="card prompt-card">
+      <h2 id="previewTitle">コピーされる内容のプレビュー</h2>
+      <textarea id="promptPreview" readonly></textarea>
+      <button id="copyPrompt" class="primary">プロンプトをコピー</button>
+      <p id="copyStatus" class="status" role="status">準備完了。</p>
+    </section>
+
+    <section class="actions">
+      <a id="reportLink" class="button" href="https://github.com/InchaComisho/Artificial-Wisdom-Guardrail-Protocol/discussions" target="_blank" rel="noopener noreferrer">GitHub Discussionsで結果を報告</a>
+      <a id="extensionLink" class="button" href="#extension">拡張機能を試す人はこちら</a>
+    </section>
+
+    <section class="card">
+      <h2 id="whatTitle">これは何か</h2>
+      <p id="whatBody">これはAIではありません。AIへ貼り付けるためのガードレールプロンプトを配布するページです。ページ本文を読み込まず、外部AIへ自動送信せず、AI APIも使いません。</p>
+    </section>
+
+    <section id="extension" class="card">
+      <h2 id="extensionTitle">ブラウザ拡張を試す</h2>
+      <p id="extensionBody">複数AIで何度も試す検証者向けに、Chrome / Edge 用の開発版ブラウザ拡張ソースを置いています。通常はこのページのコピーだけで十分です。</p>
+      <div class="download-grid">
+        <a id="sourceLink" class="button" href="extension/" target="_blank" rel="noopener noreferrer">拡張機能ソースを見る</a>
+        <a id="installJaLink" class="button" href="docs/INSTALL_EXTENSION_ja.md" target="_blank" rel="noopener noreferrer">日本語インストール方法</a>
+        <a id="installEnLink" class="button" href="docs/INSTALL_EXTENSION.md" target="_blank" rel="noopener noreferrer">English install guide</a>
+      </div>
+      <ol id="installSteps" class="steps"></ol>
+      <p id="zipNote" class="note">ZIPファイルとして使う場合は、このリポジトリ全体を GitHub の Code → Download ZIP で取得し、解凍後に extension フォルダを読み込んでください。</p>
+    </section>
+
+    <section class="card safety">
+      <h2 id="safetyTitle">安全設計</h2>
+      <ul id="safetyList"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
