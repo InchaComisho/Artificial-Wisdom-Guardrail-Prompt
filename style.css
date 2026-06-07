@@ -1,0 +1,149 @@
+:root {
+  color-scheme: light dark;
+  --border: color-mix(in srgb, CanvasText 18%, transparent);
+  --soft: color-mix(in srgb, CanvasText 6%, Canvas);
+  --accent: color-mix(in srgb, CanvasText 85%, Canvas);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: Canvas;
+  color: CanvasText;
+  line-height: 1.65;
+}
+
+.container {
+  width: min(960px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0 56px;
+}
+
+.hero {
+  padding: 28px;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background: var(--soft);
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(28px, 5vw, 48px);
+  line-height: 1.15;
+}
+
+h2 {
+  margin: 0 0 12px;
+  font-size: 22px;
+}
+
+.lead {
+  font-size: 18px;
+  max-width: 780px;
+}
+
+.language-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+select, button, .button {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+select {
+  background: Canvas;
+  color: CanvasText;
+}
+
+button, .button {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: Canvas;
+  color: CanvasText;
+}
+
+.primary {
+  width: 100%;
+  margin-top: 14px;
+  background: CanvasText;
+  color: Canvas;
+}
+
+.card {
+  margin-top: 22px;
+  padding: 22px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+}
+
+.prompt-card textarea {
+  width: 100%;
+  min-height: 520px;
+  resize: vertical;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 14px;
+  line-height: 1.55;
+  background: Canvas;
+  color: CanvasText;
+}
+
+.status, .note {
+  font-size: 14px;
+  opacity: 0.84;
+}
+
+.actions, .download-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.steps {
+  padding-left: 22px;
+}
+
+.safety li {
+  margin: 6px 0;
+}
+
+@media (max-width: 560px) {
+  .container {
+    width: min(100% - 20px, 960px);
+    padding-top: 16px;
+  }
+
+  .hero, .card {
+    padding: 16px;
+  }
+
+  .prompt-card textarea {
+    min-height: 460px;
+  }
+}
