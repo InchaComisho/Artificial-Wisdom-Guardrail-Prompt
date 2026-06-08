@@ -14,6 +14,9 @@ const content = {
     extensionLink: "拡張機能を試す人はこちら",
     whatTitle: "これは何か",
     whatBody: "これはAIではありません。AIへ貼り付けるためのガードレールプロンプトを配布するページです。ページ本文を読み込まず、外部AIへ自動送信せず、AI APIも使いません。",
+    articleTitle: "解説記事",
+    articleBody: "人工叡智（Artificial Wisdom / AW）の一般向け解説記事はこちらです。",
+    articleLink: "人工叡智とは何か：自然法則・調和・循環に基づくAI時代の知性設計",
     extensionTitle: "ブラウザ拡張を試す",
     extensionBody: "複数AIで何度も試す検証者向けに、Chrome / Edge 用の開発版ブラウザ拡張ソースを置いています。通常はこのページのコピーだけで十分です。",
     sourceLink: "拡張機能ソースを見る",
@@ -77,6 +80,9 @@ const content = {
     extensionLink: "Try the browser extension",
     whatTitle: "What This Is",
     whatBody: "This is not an AI system. It is a page for distributing a guardrail prompt that can be pasted into AI tools. It does not read page content, send anything to external AI, or use an AI API.",
+    articleTitle: "Introductory Article",
+    articleBody: "For a general Japanese introduction to Artificial Wisdom / AW, see the following article.",
+    articleLink: "What Is Artificial Wisdom? Intelligence Design for the AI Era Based on Natural Law, Harmony, and Circulation",
     extensionTitle: "Try the Browser Extension",
     extensionBody: "A Chrome / Edge developer extension source is included for testers who repeatedly use the prompt across multiple AI systems. Most users only need this copy page.",
     sourceLink: "View extension source",
@@ -170,6 +176,9 @@ function applyLanguage() {
   setText("extensionLink", x.extensionLink);
   setText("whatTitle", x.whatTitle);
   setText("whatBody", x.whatBody);
+  setText("articleTitle", x.articleTitle);
+  setText("articleBody", x.articleBody);
+  setText("articleLink", x.articleLink);
   setText("extensionTitle", x.extensionTitle);
   setText("extensionBody", x.extensionBody);
   setText("sourceLink", x.sourceLink);
