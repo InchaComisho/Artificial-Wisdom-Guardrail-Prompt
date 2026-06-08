@@ -76,6 +76,12 @@ The extension is mainly for people who want to repeatedly test the guardrail pro
 
 To use it, download the repository via **Code → Download ZIP**, unzip it, and load the `extension` folder in Chrome / Edge developer mode.
 
+## Introductory Article
+
+For a general Japanese introduction to Artificial Wisdom / AW, see:
+
+- [人工叡智とは何か：自然法則・調和・循環に基づくAI時代の知性設計](https://note.com/inchacomusho/n/n93631397ac20)
+
 ## License
 
 CC BY-SA 4.0
