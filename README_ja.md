@@ -2,6 +2,8 @@
 
 インストール不要で使える、**人工叡智ガードレールプロンプト** のコピー用ページです。
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M6J122N2K2)
+
 公開プロンプトページ: <https://inchacomisho.github.io/Artificial-Wisdom-Guardrail-Prompt/>
 
 このリポジトリは、AIツール、コードエージェント、自動化、意思決定支援、設計提案を使う前に、人工叡智ガードレールを適用するための軽量な入口です。

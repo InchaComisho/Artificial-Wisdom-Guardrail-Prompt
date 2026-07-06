@@ -4,6 +4,8 @@
 
 A simple, install-free copy page for the **Artificial Wisdom Guardrail Prompt**.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M6J122N2K2)
+
 Public prompt page: <https://inchacomisho.github.io/Artificial-Wisdom-Guardrail-Prompt/>
 
 This repository is the lightweight user-facing entry point for applying the Artificial Wisdom Guardrail before using AI tools, code agents, automation, decision-support systems, or design proposals.
