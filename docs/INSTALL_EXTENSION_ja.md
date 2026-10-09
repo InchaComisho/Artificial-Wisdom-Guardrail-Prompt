@@ -1,5 +1,7 @@
 # ブラウザ拡張のインストール方法
 
+[English Version](INSTALL_EXTENSION.md)
+
 この拡張機能は Chrome / Edge 用の開発版です。
 
 Chrome Web Store から入れる完成版ではありません。手動で読み込む必要があります。

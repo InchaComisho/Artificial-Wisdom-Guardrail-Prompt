@@ -1,5 +1,7 @@
 # 人工叡智ガードレールプロンプト
 
+[English Version](README.md)
+
 インストール不要で使える、**人工叡智ガードレールプロンプト** のコピー用ページです。
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M6J122N2K2)

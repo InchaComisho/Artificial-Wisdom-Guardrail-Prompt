@@ -1,5 +1,7 @@
 # Browser Extension Installation Guide
 
+[日本語版はこちら / Japanese version](INSTALL_EXTENSION_ja.md)
+
 This is a developer-mode Chrome / Edge extension.
 
 It is not a Chrome Web Store release. It must be loaded manually.
