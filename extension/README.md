@@ -1,5 +1,7 @@
 # Artificial Wisdom Guardrail Prompt Extension
 
+[日本語版はこちら / Japanese version](README_ja.md)
+
 This is a prompt-only Chrome / Edge developer extension.
 
 It does not read page content and does not use any AI API.
